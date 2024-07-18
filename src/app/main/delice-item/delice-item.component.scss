@@ -1,0 +1,24 @@
+.card {
+    border: none;
+    background-color: rgb(239, 254, 255);
+}
+.card-footer {
+  border: none;
+  display: flex;
+}
+.card-footer .titre {
+  margin-left: 30px;
+}
+.love {
+  position: relative;
+}
+.love i {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  color: #fff;
+}
+.heart.i {
+  color: red;
+}

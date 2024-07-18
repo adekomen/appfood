@@ -1,0 +1,30 @@
+  .navbar {
+    padding: 40px 0;
+  }
+  .navbar-brand span{
+    color: rgb(253, 224, 6);
+  }
+
+  .navbar-nav {
+      flex-direction: row;
+      justify-content: center;
+      flex-grow: 1;
+    }
+    .navbar-nav .nav-item {
+      margin: 0 10px;
+    }
+    .social-icons {
+      display: flex;
+    }
+    .social-icons .nav-link {
+      padding: 0 10px;
+    }
+    .container-fluid {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+    }
+    hr{
+      width: calc(100% - 20px);
+      margin: auto;
+    }
