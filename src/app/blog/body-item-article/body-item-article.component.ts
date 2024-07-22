@@ -1,13 +1,16 @@
-import { Component, Input, OnInit } from '@angular/core';
+import {Input, Component } from '@angular/core';
+import { IBlogArticle } from '../../models/blogArticle.interface';
 
 @Component({
-  selector: 'app-baniere',
+  selector: 'app-body-item-article',
   standalone: true,
   imports: [],
-  templateUrl: './baniere.component.html',
-  styleUrl: './baniere.component.scss',
+  templateUrl: './body-item-article.component.html',
+  styleUrl: './body-item-article.component.scss'
 })
-export class BaniereComponent {
+export class BodyItemArticleComponent {
+  @Input() article?: IBlogArticle;
+
   currentDate: Date;
   formattedDate: string;
 

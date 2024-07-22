@@ -1,13 +1,13 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-baniere',
+  selector: 'app-recipe-baniere',
   standalone: true,
   imports: [],
-  templateUrl: './baniere.component.html',
-  styleUrl: './baniere.component.scss',
+  templateUrl: './recipe-baniere.component.html',
+  styleUrl: './recipe-baniere.component.scss',
 })
-export class BaniereComponent {
+export class RecipeBaniereComponent {
   currentDate: Date;
   formattedDate: string;
 

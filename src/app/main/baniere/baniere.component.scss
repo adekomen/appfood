@@ -39,7 +39,7 @@
     justify-content: flex-start;
 }
 .menu-info p{
-    padding: 5px;
+    padding: 5px 20px;
     background-color: #ddd;
     border-radius: 30px;
     margin-right: 20px;
@@ -60,6 +60,10 @@
     display: flex;
     justify-content: space-between;
 }
+.container-info a{
+    text-decoration: none;
+    color: black;
+}
 
 .btn-view{
     background-color: rgb(27, 27, 27);
@@ -68,7 +72,32 @@
     border: 0;
     padding: 12px;
 }
-.btn-view i{
-    color: #ddd;
+
+.user-infos{
+    display: flex;
+    align-items: center;
+}
+.user{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: url("../../../../public/img-angular/avatar3.jpg") no-repeat;
+    background-size: cover;
+}
+.user-detail{
+    margin-left: 10px;
+}
+.user-detail span{
+    font-size: 15px;
+    font-weight: bold;
+}
+.brake{
+    position: absolute;
+    top: 160px;
+    left: calc(50% - 80px);
+    width: 150px;
+    height: 150px;
+    background: url("../../../../public/img-angular/brake.jpg") no-repeat;
+    background-size: cover;
     border-radius: 50%;
 }
